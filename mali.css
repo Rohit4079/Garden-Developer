@@ -828,6 +828,13 @@ th {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+  .about-section {
+  background: linear-gradient(135deg, #16a34a, #059669);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
   .about-section h1 {
     font-size: 32px;
   }
@@ -918,6 +925,10 @@ th {
 
 /* Responsive */
 @media (max-width: 992px) {
+   .our-story {
+    background: #f0fdf4;
+    padding: 50px 20px;
+  }
   .our-story .container {
     grid-template-columns: 1fr;
     text-align: center;
@@ -1135,6 +1146,15 @@ th {
   font-size: 14px;
   color: #065f46;
 }
+@media(max-width:992px){
+  .team-grid, .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+}
 
 /******************************* Services  *******************************************/
 .services-hero {
@@ -1219,7 +1239,11 @@ th {
   color: #02bd4c;
   padding-bottom: 10px;
 }
-
+@media(max-width:992px){
+  .services-hero {
+    padding: 30px 20px;
+}
+}
 /* Icon */
 .icon {
   width: 48px;
@@ -1899,7 +1923,18 @@ th {
   font-size: 16px;
   color: #16a34a;
 }
-
+@media(max-width:992px){
+  .plant-section {
+    padding: 30px 25px;
+    background: #f0fdf4;
+}
+.plant-collection {
+  text-align: center;
+  padding: 30px 20px;
+  background: #f0fdf4;
+  /* light green background */
+}
+}
 /* Product Grid */
 .product-grid {
   display: grid;
@@ -1908,7 +1943,7 @@ th {
 }
 
 .product-card {
-  background: #ecfdf5;
+  background: #ffffff;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 20px;
@@ -2021,7 +2056,12 @@ th {
   color: #166534;
   margin: 0;
 }
-
+@media(max-width:992px){
+  .tips-section {
+  background: #f0fdf4;
+  padding: 30px 20px;
+}
+}
 .heart {
   font-size: 20px;
   color: #16a34a;
@@ -2469,7 +2509,13 @@ th {
   gap: 12px;
   position: relative;
 }
-
+@media(max-width:992px){
+  .garden-gallery {
+    background: #ecfdf5;
+    padding: 30px 25px;
+    text-align: center;
+}
+}
 .filter-buttons {
   display: flex;
   flex-wrap: wrap;
